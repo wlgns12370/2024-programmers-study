@@ -33,5 +33,3 @@
 - 새로운 문제 생성 시 `create: [주차]`. 예시) `create: week1`
 - 문제 해결 시 `solve: [주차]-[문제명]`. 예시) `solve: week1-의상`
 - 기존 코드 수정 시 `modify: [주차]-[문제명] [변경 사항]`. 예시) `modify: week1-의상 시간 복잡도를 O(N)으로 개선`
-
-test
