@@ -14,4 +14,4 @@
 ## 시간 복잡도
 *heapq의 정렬 알고리즘에 의존한다*
 
-$$O(log(len(scoville)))$$
+$$O(len(scoville)log(len(scoville)))$$
