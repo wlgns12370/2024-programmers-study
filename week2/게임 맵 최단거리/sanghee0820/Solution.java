@@ -1,11 +1,7 @@
-# 문제 풀이
-
-## 문제 해설
-1. 완전탐색(BFS)
-
-## 시간 복잡도
-1. BFS O(n * m) n = row, m = column의 개수
-```java
+import java.util.*;
+class Solution {
+    final int[][] directions = {{0,1}, {0, -1}, {1,0}, {-1,0}};
+    
     public int BFS(int[][] maps){
         int row = maps.length;
         int column = maps[0].length;
@@ -32,7 +28,8 @@
         
         return -1;
     }
-```
-## 결과
-
-> BFS를 사용해 시간복잡도는 O(n*m)이다.
+    public int solution(int[][] maps) {
+        int answer = BFS(maps);
+        return answer;
+    }
+}
