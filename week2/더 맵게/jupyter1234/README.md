@@ -9,4 +9,4 @@ N : heap 원소 개수
 <br> heapify : O(N)
 <br> heappop : O(logN)
 <br> heappush : O(logN)
-$$O(N logN)$$
+$$O(N + logN)$$
