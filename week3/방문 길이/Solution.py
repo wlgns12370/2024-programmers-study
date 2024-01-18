@@ -15,7 +15,3 @@ def solution(dirs):
 
     answer = len(passed) // 2
     return answer
-
-
-print(solution("ULURRDLLU"))
-print(solution("LULLLLLLU"))
