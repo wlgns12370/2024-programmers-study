@@ -16,4 +16,4 @@
 
 ## 시간 복잡도
 
-$$O(len(numbers))$$
+$$O(len(prices))$$
